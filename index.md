@@ -1,1 +1,1 @@
-# [Sorting Algorithms](SortingAlgorithms)
+# [Sorting Algorithms](pages/sorting-algorithms)
