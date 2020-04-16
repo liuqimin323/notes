@@ -248,6 +248,7 @@ Although the worst case time complexity of QuickSort is `O(n2)` which is more th
 ### Step:
 
 1. Form a heap map:
+
 ```
 Input data: 4, 10, 3, 5, 1
          4(0)
@@ -258,6 +259,7 @@ Input data: 4, 10, 3, 5, 1
 ```
 
 2. As a parent node must be greater than the child node, and 10 is greater then 4. swap them:
+
 ```
          10(0)
         /   \
@@ -265,11 +267,11 @@ Input data: 4, 10, 3, 5, 1
     /   \
  5(3)    1(4)
 
- ==> data: 10 4 3 5 1
-
+data: 10 4 3 5 1
 ```
 
 3. Repeat step 2 until the it is a max heap map where every parent node is greater than child node. e.g. swap 4 and 5:
+
 ```
          10(0)
         /   \
@@ -281,6 +283,7 @@ data: 10 5 3 4 1
 ```
 
 4. Swap first and last node and delete the last node:
+
 ```
          1(0)               1(0)
         /   \              /  \
@@ -292,6 +295,7 @@ data: 1 5 3 4 10
 ```
 
 5. Repeat step 2 until it forms a max heap map:
+
 ```
          5(0)
         /   \
@@ -302,6 +306,7 @@ data: 1 5 3 4 10
 ```
 
 6. Repeat step 4: Swap first and last node and delete the last node:
+
 ```
          1(0)
         /   \
@@ -311,6 +316,7 @@ data: 1 5 3 4 10
 ```
 
 7. Repeat step 2
+
 ```
          4(0)
         /   \
@@ -320,6 +326,7 @@ data: 1 5 3 4 10
 ```
 
 8. Repeat step 4
+
 ```
          3(0)
         / 
@@ -328,6 +335,7 @@ data: 1 5 3 4 10
  data: 3 1 4 5 10
 ```
 9 As 3 is greater than 1, it is already a max heap, Repeat Step 4:
+
 ```
          1(0)
 
@@ -337,6 +345,7 @@ data: 1 5 3 4 10
 10. Only one node left, End.
 
 **Tip:** For a binary tree with array input. 
+
 ```
 left_child(i)  = 2 * i + 1
 right_child(i) = 2 * i + 2
@@ -344,6 +353,7 @@ parent(i)      = (i - 1) / 2
 ```
 
 **Time Complexity:** Time complexity of heapify is O(Logn). Time complexity of createAndBuildHeap() is O(n) and overall time complexity of Heap Sort is O(nLogn).
+
 
 ## Shell Sort
 Similar to [Insertion Sort](#Insertion-Sort). Instead of finding appropriate position and swap number one by one, only find position in gap.
