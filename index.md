@@ -26,6 +26,6 @@
 # [View Touch Event](pages/view-touch-event)
 [Dispatch Touch Event](pages/view-touch-event#dispatch-touch-event)
 
-[OnTouch and onTouchEvent](pages/view-touch-event#onTouch-event)
+[OnTouch and onTouchEvent](pages/view-touch-event#ontouch-event)
 
-[OnTouch and OnClick](pages/view-touch-event#onTouch-and-onClick)
+[OnTouch and OnClick](pages/view-touch-event#ontouch-and-onclick)
