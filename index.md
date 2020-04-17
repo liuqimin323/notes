@@ -22,3 +22,10 @@
 [Handler Mechanics](pages/android-handler#handler-work-flow)
 
 [Create custom handler in another Thread](pages/android-handler#create-custom-handler-in-another-thread)
+
+# [View Touch Event](pages/view-touch-event)
+[Dispatch Touch Event](pages/view-touch-event#dispatch-touch-event)
+
+[OnTouch and onTouchEvent](pages/view-touch-event#onTouch-event)
+
+[OnTouch and OnClick](pages/view-touch-event#onTouch-and-onClick)
