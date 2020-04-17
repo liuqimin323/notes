@@ -287,7 +287,7 @@ in `Looper.loop()`, it gets next message thorugh `MessageQueue.next()`. If the m
 5. Handler handle message
 In `handler.dispatchmessage()`, if message has callback, call message callback. Else if handler has callback, call handler `callback.handleMessage`. Else if `handler.handleMessage` if override, it will call `handleMessage`.
 
-## Create custom handler is another Thread
+## Create custom handler in another Thread
 1. In the thread, create a Looper through Looper.preopare()
 2. Create Handler
 3. run message though created Looper.

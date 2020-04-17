@@ -1,24 +1,24 @@
 # [Sorting Algorithms](pages/sorting-algorithms)
 
-[Selection Sort](pages/sorting-algorithms/#Selection-Sort)
+[Selection Sort](pages/sorting-algorithms#selection-sort)
 
-[Bubble Sort](pages/sorting-algorithms/#Bubble-Sort)
+[Bubble Sort](pages/sorting-algorithms#bubble-sort)
 
-[Insertion Sort](pages/sorting-algorithms/#Insertion-Sort)
+[Insertion Sort](pages/sorting-algorithms#insertion-sort)
 
-[Merge Sort](pages/sorting-algorithms/#Merge-Sort)
+[Merge Sort](pages/sorting-algorithms#merge-sort)
 
-[Quick Sort](pages/sorting-algorithms/#Quick-Sort)
+[Quick Sort](pages/sorting-algorithms#quick-sort)
 
-[Heap Sort](pages/sorting-algorithms/#Heap-Sort)
+[Heap Sort](pages/sorting-algorithms#heap-sort)
 
-[Shell Sort](pages/sorting-algorithms/#Shell-Sort)
+[Shell Sort](pages/sorting-algorithms#shell-sort)
 
 # [Android Handler](pages/android-handler)
-[Usage](pages/android-handler/#Usage)
+[Usage](pages/android-handler#usage)
 
-[Issues](pages/android-handler/#issues)
+[Issues](pages/android-handler#issues)
 
-[Handler Mechanics](pages/android-handler/#Handler-Work-Flow)
+[Handler Mechanics](pages/android-handler#handler-work-flow)
 
-[Create custom handler is another Thread](pages/android-handler/#Create-custom-handler-is-another-Thread)
+[Create custom handler in another Thread](pages/android-handler#create-custom-handler-in-another-thread)
